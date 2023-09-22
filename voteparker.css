@@ -1,0 +1,60 @@
+html {
+    background-color: #fffdd0;
+}
+
+header, footer {
+    color: white;
+    text-align: center;
+    background-color: #0897E2;
+    font-family: "Myriad Pro", Arial, Helvetica, sans-serif;}
+
+#votedparker {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#votedparker:hover {background-color: #3e8e41}
+      
+#votedparker:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#notparker {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 30px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: red;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+      }
+
+#notparker:hover {background-color: red}
+
+#notparker:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+body>div {
+    text-align: center;
+    padding: 5%;
+}
