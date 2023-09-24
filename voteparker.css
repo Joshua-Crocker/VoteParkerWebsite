@@ -56,5 +56,27 @@ header, footer {
 
 body>div {
     text-align: center;
-    padding: 5%;
 }
+
+.spacer{
+    height:30px;
+}
+
+.nav-item{
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.titlecard{
+    color: white;
+    text-align: center;
+    background-color: #0897E2;
+    font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+    width:80%;
+    padding: 4px;
+}
+
+.card-text{
+    font-size: 125%;
+}
+
