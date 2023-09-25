@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("navbar").innerHTML = `
     <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" style="margin-left: 30px;" href="index.html">
-          <img style="border-radius: 50%;
-          border: solid 1px black;
-          width: 50px;
-          height: 50px;" src="images/logo.png">
-        </a>
-
+        <img id="brand-image" style="border-radius: 50%;
+        transition: transform 1s ease-in-out;
+        margin-left: 30px;
+        margin-right: 30px;
+        border: solid 1px black;
+        width: 50px;
+        height: 50px;" src="images/logo.png">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
