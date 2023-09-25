@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <img style="border-radius: 50%;
           border: solid 1px black;
           width: 50px;
-          height: 50px;" src="logo.png">
+          height: 50px;" src="images/logo.png">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <a class="nav-link" href="about.html">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">My Platform</a>
+                    <a class="nav-link" href="platform.html">My Platform</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="form.html">Your Voice</a>
