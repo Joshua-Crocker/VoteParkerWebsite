@@ -22,8 +22,8 @@
                 <div class="row">
                     
                     <div class="titlecard">
-                        <h1 class="text-center">CNA Presedential Election 2023 </h1>
-                        <h1 class="text-center">I Want <i><u>Your</u></i> Vote!</h1> 
+                        <h1 class="text-center">CNA Presidential Election 2023 </h1>
+                        <h1 class="text-center">I Want <i><u>Your</u></i>Vote!</h1> 
                     </div>
 
                     <div class="spacer"></div>
@@ -38,19 +38,32 @@
 
                     <div class="spacer"></div>
 
-                    <div>
-                        <button id="notparker" name="notparker" onclick="confetti({
-                            particleCount: 30,
-                            scalar: 5,
-                            shapes: ['text'],
-                            shapeOptions: {
-                              text: {
-                                value: ['😔','😭','🥲'],
-                              },
-                            },
-                          });">I'm partial to another canidate!</button>
-                    </div>
+                    <div>   
+                        <button type="button" class="notparker" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            I'm partial to another canidate!
+                          </button>
+                          
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Sorry to hear that!</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  Check out the "My Platform" tab to stay informed. If you're still not convinced, use the "my voice"
+                                  tab to tell me how i can improve and become <i><u>Your</u></i> president
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <a href="platform.html" class="btn btn-info" role="button">My Platform</a>
 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -60,7 +73,7 @@
         <!-- Footer -->
         <table class="table table-borderless table-light">
             <tr>
-                <td style="text-align:center;"><h3>special thanks to my team who made this possible</h3></td>
+                <td style="text-align:center;"><h3>thanks to my team who helped build this website</h3></td>
             </tr>
             <tr>
                 <td>
