@@ -14,33 +14,60 @@
     <script src="src/navBar.js"></script> 
 </head>
 
-    <header>
-        <div id="navbar"></div> 
-    </header>
+    
+   
     
     <body>
         
+        <div id="navbar"></div> 
+        <div class="main">
+            <div class="container-sm"> 
+                <div class="row">
 
-        <Div >
-            <h4 class="text-center" style="padding-left:15%; padding-right:15%; padding-top:50px;">As your School President Nominee, I understand the significance of an open line of communication between the administration and the school community. 
-                Your concerns and feedback are the driving force behind positive change and continuous improvement. 
-                Your unique perspectives and experiences enrich our school's environment and contribute to its growth. Please feel free to use the below form to express your concerns.</h4>
-        </Div>
-        <div style="padding-top:50px; padding-left:15%; padding-right:15%; margin:auto;">
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                </div>
 
+                    <div class="titlecard">
+                        <h1 class="text-center">CNA Presedential Election 2023 </h1>
+                     <h1 class="text-center">Your Voice Matters!</h1> 
+                    </div>
+       
+            <div style="text-align:left; padding-left:5%; padding-right:5%; padding-top:20px;">
+                <h4>As your School President Nominee, I understand the significance of an open line of communication between the administration and the school community.</h4> 
+                <h4>Your concerns and feedback are the driving force behind positive change and continuous improvement.</h4>
+                <h4>Your unique perspectives and experiences enrich our school's environment and contribute to its growth. Please feel free to use the below form to express your concerns.</h4>
             </div>
-            <div class="form-floating" style="padding-top:50px; margin:auto;">
-                <textarea class="form-control" placeholder="Express Your Concerns Here" id="floatingTextarea2" style="height: 300px"></textarea>
-                <label for="floatingTextarea2" style="font-size:larger;" >Express your concerns</label>
+        
+
+        <div class="spacer"></div>
+        <div style="margin:auto; width:75%;" class="card">
+        <form  action="mailto:parker.wallace94@ed.cna.nl.ca?subject=Election" method="post" enctype="text/plain">
+            
+            <div class="card-body">
+            <div style="text-align: left;">
+            <label for="name"><h3>Your Name: </h3></label>
+            <input placeholder="Enter Name..." rerquired style="max-width:300px;" maxlength="50" class="form-control" type="text" name="name"><br>
+            
+            
+            <label for="concerns"><h3>Your Concerns: </h3></label>
+            <textarea placeholder="Your Concerns..."style="max-width:800px;" required class="form-control"  name="concerns" rows="6"></textarea><br><br>
             </div>
+        
+
+            <input class="btn btn-primary" type="submit" value="Send">
+            <input class="btn btn-secondary"type="reset" value="Reset">
+
         </div>
+        </form>
+    </div>
+       
+       
+
+        <div class="spacer"></div>
+
+        </div>
+        </div>
+        </div>
+        </div>
+
     </body>
 
 </html>
